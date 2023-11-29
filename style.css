@@ -62,7 +62,7 @@ p{
 }
 .container{
     position: relative;
-    margin:-415px 0 0 600px;
+    margin:-496px 0 0 600px;
     
     /* margin:-310px 0px 0px -50px; */
 }
@@ -91,11 +91,16 @@ h2 {
     text-transform: uppercase;
     padding: 20px 10px;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 14px;
 }
 h2 span {
     color:white;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 700;
-    text-transform: lowercase;
+    padding:13px 0;
+   
+ 
+}
+h2 span:nth-child(2n+1){
+    text-transform: uppercase;
 }
