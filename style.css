@@ -74,7 +74,7 @@ p{
 }
 .block{
     position: absolute;
-    background-image:  url('/images/image-header-desktop.jpg'); 
+    background-image:  url('images/image-header-desktop.jpg'); 
     background-size:cover;
     background-position: 100% 100%;
     width: 600px;
@@ -112,7 +112,7 @@ h2 span {
 }
 @media (max-width: 375px) {
     .block {
-        background-image: url('/images/image-header-mobile.jpg');
+        background-image: url('images/image-header-mobile.jpg');
             
      }
   
