@@ -68,7 +68,7 @@ p{
 }
 .container{
     position: relative;
-    margin:-500px 0 0 600px;
+    margin:0px 0 0 600px;
     
     /* margin:-310px 0px 0px -50px; */
 }
@@ -107,6 +107,9 @@ h2 span {
    
  
 }
+.txt {
+    text-transform: lowercase;
+}
 @media (max-width: 375px) {
     .block {
         background-image: url(/images/image-header-mobile.jpg);
@@ -117,16 +120,18 @@ h2 span {
         border-radius: 15px 15px 0 0;
         width:340px;
         height: 300px;
-        margin: -575px -600px;
+        margin: 0px -600px;
      }
      section{
+        overflow-x:hidden ;
         
         width: 340px;
-        height: 1000px;
+        height: 1050px;
         margin:20px 10px ;
      }
      .attribution{
-        margin:510px -220px;
+        position: absolute;
+        margin:210px 50px;
     }
      .attribution a, .attribution {
         font-size: 12px;
@@ -136,7 +141,7 @@ h2 span {
         
         display: flex;
         flex-direction: column;
-        display: block;
+        margin-top: 20px;
        
         }
      h1, p , .info {
@@ -151,6 +156,6 @@ h2 span {
             flex-direction: column;  
         }
      h2 span{
-        text-transform: lowercase;
+        text-transform: uppercase;
      }
     }
